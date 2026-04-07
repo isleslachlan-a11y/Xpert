@@ -1,0 +1,7 @@
+streamlit>=1.32
+anthropic
+python-dotenv
+llama-index>=0.10
+llama-index-llms-anthropic
+llama-index-embeddings-huggingface
+pypdf

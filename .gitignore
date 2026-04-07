@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Generated vector indexes — rebuild locally with: python -c "from rag.indexer import build_index; build_index()"
+index_storage/
+
+# Licensed documents — never commit
+documents/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
